@@ -1,66 +1,65 @@
-
-//// Question and answer bank
+//// Question and answer object
 
 var questions = [{
-    ques: "What two companies currently hold copyrights to Dragon Ball, Dragon Ball Z, and Dragon Ball GT?",
-    ans: ["Funimation and Pioneer", "Pioneer And Bird", "Toei and Akira Toriyama", "Funimation and Toei"],
-    name: "Dragon Ball",
+    ques: "What two companies currently hold copyrights Dragon Ball?",
+    ans: ["Toei and Pioneer", "Pioneer And Bird", "Toei and Akira Toriyama", "Funimation and Toei"],
+    name: "DragonBall",
     correct: "Funimation and Toei",
-    divClass: ".db"
+    divClass: ".DragonBall"
 },
 {
     ques: "What was the first anime series?",
     ans: ["Jungle Taitei", "Speed Racer", "Astro Boy", "Doraemon"],
-    name: "first anime",
+    name: "FirstAnime",
     correct: "Astro Boy",
-    divClass: ".fa"
+    divClass: ".FirstAnime"
 },
 {
     ques: "In Evangelion, where did Asuka Langley Sohryu previously live?",
     ans: ["France", "USA", "Germany", "Japan"],
     name: "evangelion",
     correct: "Germany",
-    divClass: ".eva"
+    divClass: ".evangelion"
 },
 {
     ques: "Who provided the voice of San in the English dubbed version of Princess Mononoke?",
     ans: ["Claire Danes", "Minnie Driver", "Gillian Anderson", "Jada Pinkett"],
     name: "mononoke",
     correct: "Claire Danes",
-    divClass: ".pm"
+    divClass: ".mononoke"
 },
 {
     ques: "In Tenchi Muyo, what is Tenchi's name?",
     ans: ["Suzuki", "Muyo", "Masaki", "Misato"],
     name: "tenchi",
     correct: "Masaki",
-    divClass: ".tm"
+    divClass: ".tenchi"
 },
 {
     ques: "What is Suzuka's nickname on Outlaw Star?",
     ans: ["Midnight", "Twilight", "Moonlight", "Starlight"],
     name: "outlawstar",
     correct: "Twilight",
-    divClass: ".os"
+    divClass: ".outlawstar"
 },
 {
     ques: "Which of the following anime series was not combined to make Robotech in the USA?",
     ans: ["Genesis Climber Mospeada", "Southern Cross", "Macross", "MS Gundam"],
     name: "robotech",
     correct: "MS Gundam",
-    divClass: ".rt"
+    divClass: ".robotech"
 },
 {
     ques: "What was the name of Lelouch's alter ego in Code Geass?",
     ans: ["Zero", "Lelouch vi Britania", "Orange", "Suzaku"],
     name: "codegeass",
     correct: "Zero",
-    divClass: ".cg"
+    divClass: ".codegeass"
 },
 {
     ques: "How many dragonballs must be collected to make a wish in the Dragon Ball series?",
     ans: ["4", "5", "6", "7"],
-    name: "dragonballs",
+    name: "dbz",
     correct: "7",
     divClass: ".dbz"
 },
@@ -69,7 +68,7 @@ var questions = [{
     ans: ["Sure Fire", "Sure Shot", "Lock on Stratos", "Bullseye"],
     name: "gundam00",
     correct: "Lock on Stratos",
-    divClass: ".gun"
+    divClass: ".gundam00"
 }
 ] // end questions object
 
