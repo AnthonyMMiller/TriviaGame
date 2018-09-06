@@ -1,0 +1,124 @@
+body {
+    background-image: url('../images/bg.jpg'); 
+    font-family: 'Anton', sans-serif;
+    color: red;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 60px;
+    color: red;
+}
+
+#splashscreen {
+    background: black;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.black-background {
+    background-color: whitesmoke;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.splashBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: 40%;
+}
+
+.splashBox2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+.wrongBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+label {
+    color: lightslategray;
+}
+
+#answerScreen {
+    display: none;
+    background: black;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+    opacity: 0.9;
+}
+
+#timesUp {
+    display: none;
+    background: black;;
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+    opacity: 0.9;
+}
+
+.up {
+    color: red;
+}
+
+.timeRemain {
+    padding: 2%;
+    color: red;
+    position: center;
+    padding-left: 400px;
+}
+
+.timeRemain #time-remain {
+    font-size: 60px;
+}
+
+body .container {
+    background: black;
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.9;
+}
+
+.questions {
+    font-size: 25px;
+    
+}
+
+.ques,
+label {
+    padding: 1%;
+}
+
+header {
+    font-size: 60px;
+    color: black;
+    margin-top: 2%;
+}
+
+.btn {
+background: red;
+color: black;
+}
