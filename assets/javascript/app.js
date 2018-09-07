@@ -70,11 +70,11 @@ var questions = [{
     correct: "Lock on Stratos",
     divClass: ".gundam00"
 }
-] // end questions object
+] 
 
 var labels = ["first", "second", "third", "forth"];
 
-// click to start then display quesions
+// click to start 
 var startGame = $("#start-btn").on('click', function() {
 $(this).parent().hide();
 $('.container').show();
@@ -85,7 +85,7 @@ questionDisplay();
 // function for displaying questions
 var questionDisplay = function() {
 $(".questions :not('#sub-but')").empty();
-// loops through the 10 questions 
+// loops through 10 questions 
 for (var j = 0; j < 10; j++) {
 $('.questions').prepend('<div class="' + questions[j].name + '"></div>');
 $(questions[j].divClass).append('<div class ="ques-title">' + questions[j].ques + '</div>');
@@ -134,11 +134,11 @@ if (seconds <= 0) {
 }
 }, 1000);
 
-// click event for submit button to stop timer
+// submit button to stop timer
 $('#sub-but').on('click', function() {
 clearInterval(timer);
 })
-}; // end countdown
+};
 
 
 // function to grade quiz once submit button is clicked
@@ -159,7 +159,7 @@ if ($('input:radio[name="' + questions[i].name + '"]:checked').val() === questio
 };
 };
 
-// once submit is clicked...
+// once submit is clicked
 // tests
 // stop timer
 countdown();
@@ -172,4 +172,4 @@ $('#correctScreen').append(correctAnswers);
 // display wrongAnswers
 $('#wrongScreen').append(wrongAnswers);
 
-}); // end gradeQuiz
+}); 
