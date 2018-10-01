@@ -1,5 +1,5 @@
 # TriviaGame
-
+https://teckniec.github.io/TriviaGame/
 If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
 
 The scenario is similar for wrong answers and time-outs.
